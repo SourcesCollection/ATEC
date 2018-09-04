@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c7c131a-f80a-4e6d-bd8d-e628eb7b1e45" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/atec$atec.coverage" NAME="atec Coverage Results" MODIFIED="1528172761610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/atec$main_bcdssm.coverage" NAME="main_bcdssm Coverage Results" MODIFIED="1527083253789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bcdssm" />
+    <SUITE FILE_PATH="coverage/atec$n_grams.coverage" NAME="n_grams Coverage Results" MODIFIED="1528628584753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xgb" />
+    <SUITE FILE_PATH="coverage/atec$train_dev_split.coverage" NAME="train_dev_split Coverage Results" MODIFIED="1529744458753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_model/utils" />
+    <SUITE FILE_PATH="coverage/atec$bcdssm_api.coverage" NAME="bcdssm_api Coverage Results" MODIFIED="1527083716789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bcdssm" />
+    <SUITE FILE_PATH="coverage/atec$string_distance.coverage" NAME="string_distance Coverage Results" MODIFIED="1528642040826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xgb" />
+    <SUITE FILE_PATH="coverage/atec$train_cdssm.coverage" NAME="train_cdssm Coverage Results" MODIFIED="1529803869859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cdssm" />
+    <SUITE FILE_PATH="coverage/atec$iterator_utils.coverage" NAME="iterator_utils Coverage Results" MODIFIED="1529655161366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_model/utils" />
+    <SUITE FILE_PATH="coverage/atec$data_utils.coverage" NAME="data_utils Coverage Results" MODIFIED="1529241965424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_model" />
+    <SUITE FILE_PATH="coverage/atec$evaluation_utils.coverage" NAME="evaluation_utils Coverage Results" MODIFIED="1529723454220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_model/utils" />
+    <SUITE FILE_PATH="coverage/atec$test.coverage" NAME="test Coverage Results" MODIFIED="1529804935238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/atec$train_xgb.coverage" NAME="train_xgb Coverage Results" MODIFIED="1528806925753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xgb" />
+    <SUITE FILE_PATH="coverage/atec$main_cdssm.coverage" NAME="main_cdssm Coverage Results" MODIFIED="1529808114265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cdssm" />
+    <SUITE FILE_PATH="coverage/atec$vector_utils.coverage" NAME="vector_utils Coverage Results" MODIFIED="1528381172997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/atec$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1528447008037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xgb" />
+    <SUITE FILE_PATH="coverage/atec$string_diff.coverage" NAME="string_diff Coverage Results" MODIFIED="1528617391945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xgb" />
+    <SUITE FILE_PATH="coverage/atec$misc_utils.coverage" NAME="misc_utils Coverage Results" MODIFIED="1528877894724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_model/utils" />
+    <SUITE FILE_PATH="coverage/atec$model.coverage" NAME="model Coverage Results" MODIFIED="1528182110656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xgb" />
+    <SUITE FILE_PATH="coverage/atec$vocab_utils.coverage" NAME="vocab_utils Coverage Results" MODIFIED="1528946277515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_model/utils" />
+    <SUITE FILE_PATH="coverage/atec$siamese_network.coverage" NAME="siamese_network Coverage Results" MODIFIED="1529803774994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_model" />
+    <SUITE FILE_PATH="coverage/atec$model_cdssm.coverage" NAME="model_cdssm Coverage Results" MODIFIED="1529803781821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cdssm" />
+    <SUITE FILE_PATH="coverage/atec$main.coverage" NAME="main Coverage Results" MODIFIED="1530519326403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/atec$train.coverage" NAME="train Coverage Results" MODIFIED="1528199608280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xgb" />
+    <SUITE FILE_PATH="coverage/atec$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1528465261104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+              <folding>
+                <element signature="e#24#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_xgb_stack.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xgb_model/main_xgb_stack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1577">
+              <caret line="102" column="30" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
+              <folding>
+                <element signature="e#24#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_cdssm_stack.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cdssm/main_cdssm_stack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1216">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
+              <folding>
+                <element signature="e#83#121#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data_utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cdssm/data_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+              <folding>
+                <element signature="e#15#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train_cdssm.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cdssm/train_cdssm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model_cdssm.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cdssm/model_cdssm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>L</find>
+      <find>u'\u4ed8\u4f1a\u6536'</find>
+      <find>s2</find>
+      <find>付会收</find>
+      <find>余额宝</find>
+      <find>weights</find>
+      <find>word2vec</find>
+      <find>cityblock</find>
+      <find>w2v</find>
+      <find>cos_sim</find>
+      <find>,</find>
+      <find>0.0,</find>
+      <find>spatial</find>
+      <find>z</find>
+      <find>train</find>
+      <find>doc2vec1</find>
+      <find>\t</find>
+      <find>.*</find>
+      <find>sentence</find>
+      <find>&lt;unk&gt;</find>
+      <find>text_vocab_table</find>
+      <find>time_major</find>
+      <find>pad</find>
+      <find>unk_id</find>
+      <find>label</find>
+      <find>skip_count</find>
+      <find>skip</find>
+      <find>process_stats</find>
+      <find>dev</find>
+      <find>\t.*\t.*\t</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>val</replace>
+      <replace>config.path</replace>
+      <replace>char</replace>
+      <replace>distance2</replace>
+      <replace>distance4</replace>
+      <replace>s1, s2 = row[&quot;s1&quot;], row[&quot;s2&quot;]</replace>
+      <replace>axis=1</replace>
+      <replace>ws2</replace>
+      <replace>canberra</replace>
+      <replace>glove</replace>
+      <replace>dis_cosine</replace>
+      <replace>&quot;, &quot;</replace>
+      <replace>float(spatial</replace>
+      <replace>z</replace>
+      <replace>text</replace>
+      <replace>vocab_table</replace>
+      <replace>test</replace>
+      <replace>\t</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cnn/__init__.py" />
+        <option value="$PROJECT_DIR$/deep_model/utils/__init__.py" />
+        <option value="$PROJECT_DIR$/deep_model/utils/misc_utils.py" />
+        <option value="&lt;8ab4606c-d58d-4aee-bec4-4b176f2a2625&gt;/atec/xgb/glove_vectors.txt" />
+        <option value="$PROJECT_DIR$/deep_model/glove_vectors.txt" />
+        <option value="$PROJECT_DIR$/deep_model/vocab.txt" />
+        <option value="$PROJECT_DIR$/deep_model/model/vocab.txt" />
+        <option value="$PROJECT_DIR$/deep_model/utils/model_helper.py" />
+        <option value="$PROJECT_DIR$/deep_model/standard_hparams_utils.py" />
+        <option value="$PROJECT_DIR$/deep_model/data_utils.py" />
+        <option value="$PROJECT_DIR$/deep_model/utils/data_utils.py" />
+        <option value="$PROJECT_DIR$/deep_model/siamese_model.py" />
+        <option value="$PROJECT_DIR$/deep_model/utils/vocab_utils.py" />
+        <option value="$PROJECT_DIR$/deep_model/standard_hparams/siamese_cnn.json" />
+        <option value="$PROJECT_DIR$/deep_model/utils/standard_hparams_utils.py" />
+        <option value="$PROJECT_DIR$/deep_model/model/hparams" />
+        <option value="$PROJECT_DIR$/deep_model/utils/iterator_utils.py" />
+        <option value="$PROJECT_DIR$/deep_model/model_helper.py" />
+        <option value="$PROJECT_DIR$/deep_model/data/train_pred.csv" />
+        <option value="$PROJECT_DIR$/deep_model/utils/evaluation_utils.py" />
+        <option value="$PROJECT_DIR$/deep_model/utils/train_dev_split.py" />
+        <option value="$PROJECT_DIR$/deep_model/inference.py" />
+        <option value="$PROJECT_DIR$/deep_model/siamese_network.py" />
+        <option value="$PROJECT_DIR$/deep_model/model.py" />
+        <option value="$PROJECT_DIR$/deep_model/train.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/cdssm/model_cdssm.py" />
+        <option value="&lt;8ab4606c-d58d-4aee-bec4-4b176f2a2625&gt;/atec/cdssm/log" />
+        <option value="$PROJECT_DIR$/cdssm/main_cdssm.py" />
+        <option value="$PROJECT_DIR$/cdssm/main.py" />
+        <option value="$PROJECT_DIR$/xgb/cdssm/main_for_xgb.py" />
+        <option value="$PROJECT_DIR$/xgb/cdssm/main.py" />
+        <option value="$PROJECT_DIR$/xgb/cdssm/cdssm_for_stack.py" />
+        <option value="$PROJECT_DIR$/xgb/cdssm_for_stack.py" />
+        <option value="$PROJECT_DIR$/test.txt" />
+        <option value="$PROJECT_DIR$/xgb/train_cdssm.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/xgb/main.py" />
+        <option value="$PROJECT_DIR$/cdssm/cdssm_for_stack.py" />
+        <option value="$PROJECT_DIR$/xgb/main_xgb_stack.py" />
+        <option value="$PROJECT_DIR$/xgb_model/cut_utils.py" />
+        <option value="$PROJECT_DIR$/xgb_model/string_distance.py" />
+        <option value="$PROJECT_DIR$/xgb_model/string_diff.py" />
+        <option value="$PROJECT_DIR$/xgb_model/word2vec_utils.py" />
+        <option value="$PROJECT_DIR$/cdssm/torchtext/__init__.py" />
+        <option value="$PROJECT_DIR$/cdssm/train_cdssm.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/xgb_model/main_xgb_stack.py" />
+        <option value="$PROJECT_DIR$/cdssm/main_cdssm_stack.py" />
+        <option value="$PROJECT_DIR$/cdssm/data_utils.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="1280" />
+    <option name="y" value="-196" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="atec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/liuaiting/Desktop/atec/deep_model/train.py" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cdssm" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/xgb" />
+      <recent name="$PROJECT_DIR$/deep_model/data" />
+      <recent name="$PROJECT_DIR$/deep_model/utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xgb" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/cdssm" />
+      <recent name="$PROJECT_DIR$/deep_model/data" />
+      <recent name="$PROJECT_DIR$/deep_model/model" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="atec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="main_cdssm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="atec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cdssm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cdssm/main_cdssm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="model_cdssm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="atec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cdssm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cdssm/model_cdssm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="atec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="train_cdssm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="atec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cdssm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cdssm/train_cdssm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.model_cdssm" />
+      <item itemvalue="Python.train_cdssm" />
+      <item itemvalue="Python.main_cdssm" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.main_cdssm" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.train_cdssm" />
+        <item itemvalue="Python.model_cdssm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c7c131a-f80a-4e6d-bd8d-e628eb7b1e45" name="Default" comment="" />
+      <created>1526899676244</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526899676244</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add custom dictionary">
+      <created>1527218050179</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1527218050179</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add custom dictionary">
+      <created>1527218101972</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1527218101972</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add train data">
+      <created>1527241458288</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1527241458288</updated>
+    </task>
+    <task id="LOCAL-00004" summary="change model loss function">
+      <created>1527672484264</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1527672484264</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add some words to userdict.txt">
+      <created>1527932624309</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1527932624309</updated>
+    </task>
+    <task id="LOCAL-00006" summary="first commit">
+      <created>1528456674151</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1528456674151</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add some features">
+      <created>1528682760684</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1528682760684</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add some features">
+      <created>1528682800791</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1528682800791</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add some features">
+      <created>1528726399105</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1528726399105</updated>
+    </task>
+    <task id="LOCAL-00010" summary="change dtype to float">
+      <created>1528788583057</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1528788583057</updated>
+    </task>
+    <task id="LOCAL-00011" summary="xgboost model with 58 features">
+      <created>1528856545772</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1528856545773</updated>
+    </task>
+    <task id="LOCAL-00012" summary="tmp siamese cnn">
+      <created>1529506150041</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1529506150041</updated>
+    </task>
+    <task id="LOCAL-00013" summary="first complete train/eval/inference">
+      <created>1529747625778</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1529747625778</updated>
+    </task>
+    <task id="LOCAL-00014" summary="commit cdssm and xgb">
+      <created>1530085505782</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1530085505782</updated>
+    </task>
+    <task id="LOCAL-00015" summary="stack xgb and cdssm">
+      <created>1530520017414</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1530520017414</updated>
+    </task>
+    <task id="LOCAL-00016" summary="stack xgb and cdssm">
+      <created>1530598233739</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1530598233739</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1280" y="-196" width="1920" height="1080" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32923368" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" weight="0.32923368" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32923368" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.062440872" />
+      <window_info anchor="right" id="Remote Host" order="3" sideWeight="0.49952698" weight="0.1400426" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1341853" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="SciView" order="5" weight="0.32960597" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32923368" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39924315" />
+      <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="4" sideWeight="0.500473" side_tool="true" weight="0.21352503" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.32734153" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32923368" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32923368" />
+      <window_info anchor="right" id="Remote Host" order="3" sideWeight="0.49952698" visible="true" weight="0.1400426" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12886049" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32923368" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32923368" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32923368" />
+      <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="4" sideWeight="0.500473" side_tool="true" weight="0.21352503" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.062440872" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="5" weight="0.32960597" />
+      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.32734153" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39924315" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32923368" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/bcdssm" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="add custom dictionary" />
+    <MESSAGE value="add train data" />
+    <MESSAGE value="change model loss function" />
+    <MESSAGE value="add some words to userdict.txt" />
+    <MESSAGE value="first commit" />
+    <MESSAGE value="add some features" />
+    <MESSAGE value="change dtype to float" />
+    <MESSAGE value="xgboost model with 58 features" />
+    <MESSAGE value="tmp siamese cnn" />
+    <MESSAGE value="first complete train/eval/inference" />
+    <MESSAGE value="commit cdssm and xgb" />
+    <MESSAGE value="stack xgb and cdssm" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack xgb and cdssm" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>bitmap</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bitmap.size</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bitmap.size()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bitmap[i]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/xgb/cdssm/data_utils.py" />
+    <entry file="file://$PROJECT_DIR$/xgb/cdssm/result.txt" />
+    <entry file="file://$PROJECT_DIR$/xgb/cdssm/main_cdssm.py" />
+    <entry file="file://$PROJECT_DIR$/xgb_model/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xgb_model/test_string_diff.csv" />
+    <entry file="file://$PROJECT_DIR$/xgb/cdssm/main.py" />
+    <entry file="file://$PROJECT_DIR$/xgb/cdssm_result.csv" />
+    <entry file="file://$PROJECT_DIR$/xgb/xgb_result.csv" />
+    <entry file="file://$PROJECT_DIR$/xgb/result.txt" />
+    <entry file="file://$PROJECT_DIR$/xgb_model/train_xgb.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cdssm/data/train_cut_sample.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt" />
+    <entry file="file://$PROJECT_DIR$/cdssm/data/train_cut9.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cdssm/data/train_cut1.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xgb/sentence_vocab.pk" />
+    <entry file="file://$PROJECT_DIR$/xgb/model_cdssm.py" />
+    <entry file="file://$PROJECT_DIR$/xgb/test_cdssm.csv" />
+    <entry file="file://$PROJECT_DIR$/xgb/train_cdssm.py" />
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2094">
+          <caret line="178" column="31" selection-start-line="178" selection-start-column="31" selection-end-line="178" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xgb_model/test_xgb.csv" />
+    <entry file="file://$PROJECT_DIR$/xgb_model/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="107" column="10" lean-forward="true" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cdssm/main_cdssm_stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/site-packages/jieba/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="373" selection-start-line="373" selection-end-line="373" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xgb_model/cut_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/site-packages/gensim/models/utils_any2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xgb_model/string_diff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xgb_model/string_distance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="113" column="4" lean-forward="true" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cdssm/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xgb_model/w2v_distance.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xgb_model/word2vec_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2011">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xgb_model/doc2vec_infer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-727" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xgb_model/doc2vec_model.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xgb_model/n_grams.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2689">
+          <caret line="191" column="10" selection-start-line="191" selection-start-column="10" selection-end-line="191" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cdssm/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cdssm/torchtext/vocab.py" />
+    <entry file="file://$PROJECT_DIR$/cdssm/torchtext/utils.py" />
+    <entry file="file://$PROJECT_DIR$/cdssm/torchtext/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/cdssm/torchtext/data/field.py" />
+    <entry file="file://$PROJECT_DIR$/cdssm/main_cdssm.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xgb_model/main_xgb_stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1577">
+          <caret line="102" column="30" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
+          <folding>
+            <element signature="e#24#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cdssm/main_cdssm_stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="e#83#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cdssm/data_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <element signature="e#15#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cdssm.csv" />
+    <entry file="file://$PROJECT_DIR$/test_xgb.csv" />
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <folding>
+            <element signature="e#24#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result.txt" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="626">
+            <caret line="114" column="38" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cdssm/train_cdssm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cdssm/model_cdssm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
